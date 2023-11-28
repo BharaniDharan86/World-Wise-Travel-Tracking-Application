@@ -1,0 +1,76 @@
+{
+  "cities": [
+    {
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2027-10-31T15:59:59.138Z",
+      "notes": "My favorite city so far!",
+      "position": {
+        "lat": 38.727881642324164,
+        "lng": -9.140900099907554
+      },
+      "id": 73930385
+    },
+    {
+      "cityName": "Chintagunta",
+      "country": "India",
+      "emoji": "❌",
+      "date": "2023-11-28T12:06:11.433Z",
+      "notes": "So beautiful so elegant just looking like a wow",
+      "position": {
+        "lat": "14.732386081418454",
+        "lng": "80.02441406250001"
+      },
+      "id": 73930386
+    },
+    {
+      "cityName": "Nallur",
+      "country": "India",
+      "emoji": "❌",
+      "date": "2023-11-28T12:11:22.301Z",
+      "notes": "books",
+      "position": {
+        "lat": "9.774024565864734",
+        "lng": "78.13476562500001"
+      },
+      "id": 73930388
+    },
+    {
+      "cityName": "Arpadere",
+      "country": "Turkey",
+      "emoji": "❌",
+      "date": "2023-11-28T13:54:11.811Z",
+      "notes": "Hello",
+      "position": {
+        "lat": "37.96152331396614",
+        "lng": "27.729492187500004"
+      },
+      "id": 73930390
+    },
+    {
+      "cityName": "Thunkandura",
+      "country": "Sri Lanka",
+      "emoji": "❌",
+      "date": "2023-11-28T13:54:56.256Z",
+      "notes": "Tour",
+      "position": {
+        "lat": "7.36246686553575",
+        "lng": "80.63964843750001"
+      },
+      "id": 73930391
+    },
+    {
+      "cityName": "Gangarajupadu",
+      "country": "India",
+      "emoji": "❌",
+      "date": "2023-11-28T13:58:14.244Z",
+      "notes": "Dharishanam",
+      "position": {
+        "lat": "13.902075852500495",
+        "lng": "79.32128906250001"
+      },
+      "id": 73930392
+    }
+  ]
+}
