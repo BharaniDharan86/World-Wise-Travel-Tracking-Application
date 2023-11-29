@@ -3,6 +3,7 @@ import styles from "./Login.module.css";
 import PageNav from "../components/PageNav";
 import { useAuth } from "../context/FakeUserContext";
 import { useNavigate } from "react-router-dom";
+import Button from "../components/Button";
 
 /*
 CHALLENGE
@@ -22,13 +23,18 @@ export default function Login() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    if (isAuth === true) navigate("/app");
-  }, [isAuth]);
+    if (isAuth === true) navigate("/app", { replace: true });
+  }, [isAuth, navigate]);
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    if (email && password) login(email, password);
+  }
 
   return (
     <main className={styles.login}>
       <PageNav />
-      <form className={styles.form}>
+      <form className={styles.form} onSubmit={handleSubmit}>
         <div className={styles.row}>
           <label htmlFor="email">Email address</label>
           <input
@@ -50,14 +56,14 @@ export default function Login() {
         </div>
 
         <div>
-          <button
-            onClick={(e) => {
-              e.preventDefault();
-              login(email, password);
-            }}
+          <Button
+            type="primary"
+            // onClick={() => {
+            //   login(email, password);
+            // }}
           >
             Login
-          </button>
+          </Button>
         </div>
       </form>
     </main>
